@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap');
+
+@tailwind base;
+
+@layer base
+{
+  .heading-1{
+    @apply text-5xl font-s;
+  }
+
+  .lead{
+    @apply text-sm leading-6 font-ss;
+  }
+}
+
+@tailwind components;
+
+@layer components 
+{
+
+  .nav-item
+  {
+    padding: 0 1rem;
+  }
+
+  .nav-link:hover
+  {
+    @apply text-secondary;
+  }
+
+}
+
+@tailwind utilities

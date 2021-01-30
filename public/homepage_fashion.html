@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - Fashion</title>
+    <!-- compiled main css (sass used) -->
+    <link rel="stylesheet" href="build/main.css" />
+    <!-- tailwind compiled file link -->
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <!-- nice select link -->
+    <link rel="stylesheet" href="build/nice-select.css" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+  <body class="font-ss" id="my-scrollbar">
+    <!-- header section -->
+    <header>
+      <div class="top-nav border-b md:py-0 md:px-0 px-3 py-4">
+        <div class="container mx-auto">
+          <div
+            class="flex items-center justify-between text-gray-600 uppercase text-sm"
+          >
+            <div class="col1 md:flex md:flex-1 z-20">
+              <div class="languages md:w-20">
+                <form action="">
+                  <select name="langs" id="langs" role="change language">
+                    <option value="english">english</option>
+                    <option value="english">frensh</option>
+                    <option value="english">arabe</option>
+                  </select>
+                </form>
+              </div>
+              <div class="navigation md:flex-1 md:flex md:justify-center">
+                <nav>
+                  <ul
+                    class="nav-list md:flex md:items-center md:justify-center md:border-l md:border-r px-10"
+                  >
+                    <li class="nav-item my-3">
+                      <a href="women.html" class="nav-link">women</a>
+                    </li>
+                    <li class="nav-item my-3">
+                      <a href="men.html" class="nav-link">men</a>
+                    </li>
+                    <li class="nav-item my-3">
+                      <a href="children.html" class="nav-link">children</a>
+                    </li>
+                    <li class="nav-item my-3">
+                      <a href="accessoire.html" class="nav-link">accessoire</a>
+                    </li>
+                    <li class="nav-item my-3">
+                      <a href="blog.html" class="nav-link">blog</a>
+                    </li>
+                    <li class="nav-item my-3">
+                      <a href="contact.html" class="nav-link">contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col2">
+              <a href="#"> <abbr title="dollar">$</abbr>0.0 items </a>
+            </div>
+            <div class="col3 md:hidden">
+              <button aria-label="menu button " class="focus:outline-none z-10">
+                <div class="humberger relative z-20">
+                  <div class="line line1"></div>
+                  <div class="line line2"></div>
+                  <div class="line line3"></div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="border-b">
+          <div class="container mx-auto px-3 md:px-0">
+            <div
+              class="header-content-wrapper md:flex md:items-center md:justify-between py-3 relative"
+            >
+              <div class="logo flex-1 flex justify-center md:justify-start">
+                <a href="#">
+                  <img
+                    src="images/Logo.png"
+                    alt="ocolus logo"
+                    title="ocolus logo"
+                    class="w-32"
+                  />
+                </a>
+              </div>
+              <div class="search-box-grid flex-1">
+                <div id="wrap" class="my-5 md:my-0">
+                  <form action="" autocomplete="on">
+                    <input
+                      id="search"
+                      name="search"
+                      type="text"
+                      class="search-field text-xl"
+                      placeholder="What're we looking for ?"
+                    /><input
+                      id="search_submit"
+                      value="Rechercher"
+                      type="submit"
+                      class="search_submit focus:outline-none"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main section -->
+    <main>
+      <div class="container mx-auto px-3 md:px-0">
+        <div class="hero-content md:px-48 py-20">
+          <h2 class="font-s text-center text-3xl text-primary pb-4">
+            Use Instagram to Boost Your Online Sales
+          </h2>
+          <p class="text-center text-gray-600 leading-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            explicabo dolor culpa fugiat. Ipsa temporibus qui at itaque, id
+            exercitationem voluptatem expedita
+          </p>
+        </div>
+      </div>
+      <div
+        class="product-gallery grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 pb-20"
+      >
+        <div class="pg-item">
+          <img
+            src="images/instagram1.jpg"
+            alt="product 1"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram2.jpg"
+            alt="product 2"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram3.jpg"
+            alt="product 3"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram4.jpg"
+            alt="product 4"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram5.jpg"
+            alt="product 5"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram6.jpg"
+            alt="product 6"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram7.jpg"
+            alt="product 7"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram8.jpg"
+            alt="product 8"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram9.jpg"
+            alt="product 9"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram10.jpg"
+            alt="product 10"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram11.jpg"
+            alt="product 11"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+        <div class="pg-item">
+          <img
+            src="images/instagram12.jpg"
+            alt="product 12"
+            class="w-full h-full object-center object-cover block"
+          />
+        </div>
+      </div>
+    </main>
+    <!-- footer section -->
+    <footer>
+      <div class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+          <h3 class="capitalize text-center text-xl">join our newsletter</h3>
+
+          <!-- subscribe form -->
+          <form action="">
+            <div
+              class="join_us_form form-group flex items-center border mx-auto my-8 md:w-1/2"
+            >
+              <div class="input-field h-full relative">
+                <label
+                  for="add_email"
+                  class="absolute top-3 left-4 text-gray-600 text-sm capitalize tracking-normal font-light"
+                  >enter your email address</label
+                >
+                <input
+                  type="text"
+                  name="add_email"
+                  id="add_email"
+                  class="add_email focus:outline-none border-r h-full w-full px-4 font-ss text-lg font-light tracking-normal"
+                />
+              </div>
+              <div class="submit-field h-full">
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  id="subscribe"
+                  class="subscribe focus:outline-none bg-white h-full w-full text-sm px-5"
+                  name="subscribe"
+                />
+              </div>
+            </div>
+          </form>
+
+          <!-- footer menu -->
+          <div class="footer-menu">
+            <nav>
+              <ul class="lg:flex lg:justify-center lg:items-center text-center">
+                <li class="my-2 lg:my-0 lg:mx-7">
+                  <a href="#" class="text-xs uppercase text-gray-600">women</a>
+                </li>
+                <li class="my-2 lg:my-0 lg:mx-7">
+                  <a href="#" class="text-xs uppercase text-gray-600">men</a>
+                </li>
+                <li class="my-2 lg:my-0 lg:mx-7">
+                  <a href="#" class="text-xs uppercase text-gray-600"
+                    >children</a
+                  >
+                </li>
+                <li class="my-2 lg:my-0 lg:mx-7">
+                  <a href="#" class="text-xs uppercase text-gray-600"
+                    >accessoires</a
+                  >
+                </li>
+                <li class="my-2 lg:my-0 lg:mx-7">
+                  <a href="#" class="text-xs uppercase text-gray-600">blog</a>
+                </li>
+                <li class="my-2 lg:my-0 lg:mx-7">
+                  <a href="#" class="text-xs uppercase text-gray-600"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="social-media-link">
+            <ul class="flex flex-wrap justify-center items-center pt-8">
+              <li
+                class="border border-gray-500 grid place-items-center w-7 h-7 rounded-full mx-2"
+              >
+                <a href="#">
+                  <i class="fab fa-facebook text-sm text-gray-500"></i>
+                </a>
+              </li>
+              <li
+                class="border border-gray-500 grid place-items-center w-7 h-7 rounded-full mx-2 hover:bg-primary hover:border-opacity-0"
+              >
+                <a href="#">
+                  <i class="fab fa-twitter text-sm text-gray-500"></i>
+                </a>
+              </li>
+              <li
+                class="border border-gray-500 grid place-items-center w-7 h-7 rounded-full mx-2 hover:bg-primary hover:border-opacity-0"
+              >
+                <a href="#">
+                  <i class="fab fa-google-plus-g text-sm text-gray-500"></i>
+                </a>
+              </li>
+              <li
+                class="border border-gray-500 grid place-items-center w-7 h-7 rounded-full mx-2 hover:bg-primary hover:border-opacity-0"
+              >
+                <a href="#">
+                  <i class="fab fa-pinterest-p text-sm text-gray-500"></i>
+                </a>
+              </li>
+              <li
+                class="border border-gray-500 grid place-items-center w-7 h-7 rounded-full mx-2 hover:bg-primary hover:border-opacity-0"
+              >
+                <a href="#">
+                  <i class="fab fa-linkedin text-sm text-gray-500"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- copyrights -->
+          <p class="text-xs text-gray-600 text-center my-3">
+            © 2018 Ocolus. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/public/build/scripts/jquery.js"></script>
+    <script src="/public/build/scripts/jquery.nice-select.min.js"></script>
+    <script src="/public/build/scripts/smooth-scrollbar.js"></script>
+    <script src="/public/build/scripts/main.js"></script>
+  </body>
+</html>
